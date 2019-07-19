@@ -1,0 +1,70 @@
+question_answer1={
+    'question':{
+    'question':'2x+1=5.Hỏi x = ?',
+    'A':'1',
+    'B':'2',
+    'C':'3',
+    'D':'4',
+} ,
+    'answer':'B'
+} 
+question_answer2={
+    'question':{
+    'question':'Vs x=1 thì 2x+2=?',
+    'A':'1',
+    'B':'2',
+    'C':'3',
+    'D':'6',
+} ,
+    'answer':'D'
+} 
+list_question_answer=[question_answer1]
+list_question_answer.append(question_answer2)
+
+for u in list_question_answer:
+    dem=0;
+    while True:
+        for v in u['question']:
+            print(v+': '+str(u['question'][v]))
+        dapan=input('nhap dap an ')
+        dapan=dapan.upper()
+        dem+=1
+        if dapan=="exit":
+            exit() 
+        if dapan==u['answer']:
+            print("true")
+            break;
+        else:print("false")
+        if dem==3:
+            print('b qua ngu')
+            break
+
+label : end
+print("ket thuc")
+#bai2
+prices={}
+prices['banana']= 4
+prices['apple']= 2
+prices['orange']= 1.5
+prices['pear']= 3
+stoc={
+    "banana": 6,
+    "apple": 0,
+    "orange": 32,
+    "pear": 15
+}
+for v in prices:
+    print()
+    #print('price: ',prices[v])
+    #print('stock: ',stoc[v])
+
+#bai 1
+inventory = {
+    'gold' : 500,
+    'pouch' : ['flint', 'twine', 'gemstone'],
+    'backpack' : ['xylophone', 'dagger', 'bedroll', 'bread loaf']
+}
+inventory['pocket']=['seashell', 'strange berry','lint']
+xx=inventory['backpack'].remove('dagger')
+inventory['gold']=[500]
+inventory['gold'].append(50)
