@@ -1,0 +1,18 @@
+Bài 1: Thi?t l?p l?p PhanSo d? bi?u di?n khái ni?m phân s? v?i hai thành ph?n d? li?u t? s?, m?u s? và các hàm thành ph?n c?ng, tr?, nhân, chia hai phân s? (K?t qu? là 1 phân s?), các hàm thành ph?n xu?t, nh?p, d?nh giá tr? cho phân s?. Vi?t chuong trình cho phép nh?p vào hai phân s?, in ra k?t qu? các phép toán c?ng, tr?, nhân, chia hai phân s? k? trên.
+
+Bài 2: Thi?t l?p l?p Matrix d? bi?u di?n khái ni?m ma tr?n m hàng n c?t. Các phép toán trên ma tr?n nhu sau:
++ Nhap(): Nh?p ma tr?n t? bàn phím (Nh?p s? hàng, s? c?t và l?n lu?t các ph?n t? c?a ma tr?n)
++ C?ng hai ma tr?n cùng kích thu?c, n?u không cùng kích thu?c thì báo l?i (K?t qu? cung là 1 ma tr?n)
++ Tr? hai ma tr?n cùng kích thu?c, n?u không cùng kích thu?c thì báo l?i (K?t qu? cung là 1 ma tr?n)
+
+Bài 3: Xây d?ng l?p Hinh d? mô t? 1 hình, có các phuong th?c chung sau: 
++ Nh?p t? bàn phím
++ In ra màn hình
++ Tính di?n tích
++ Tính chu vi
+T? l?p Hinh trên, xây d?ng thêm các l?p k? th?a sau:
++ Hình Tròn bán kính r
++ Hình vuông c?nh a
++ Hình ch? nh?t c?nh a,b
++ Hình tam giác, 3 c?nh a,b,c
+Hi?n th?c l?i các phuong th?c trên d? dúng v?i t?ng hình.

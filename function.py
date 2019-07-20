@@ -1,8 +1,4 @@
-x=input("nhap so ")
-try:
-    x= int(x)
-except:
-    print(x +" is str")
+
  
 
 def say_hi():
